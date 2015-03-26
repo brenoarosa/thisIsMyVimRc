@@ -82,7 +82,7 @@ syntax on
 set number
 
 " Toggle line numbers
-nnoremap <F3> :set number!<cr>
+nnoremap <silent><F3> :set number!<cr>
 
 " Scroll with 3 lines of border
 set scrolloff=3
