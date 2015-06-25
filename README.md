@@ -1,14 +1,16 @@
 # thisIsMyVimRc
 Guess what it does !?
 
-Get and rename this folder as ".vim"
+### Install
+
+Get and rename this folder as ".vim"  
 git clone git@github.com:brenoarosa/thisIsMyVimRc.git .vim
 
-Install it runing:
+Install it runing:  
 echo "runtime vimrc" > ~/.vimrc
 
-Plugins
+### Plugins
 
-Register and get submodules (or use --recursive flag when cloning):
-git submodules init
+Register and get submodules (or use --recursive flag when cloning):  
+git submodules init  
 git submodules update
