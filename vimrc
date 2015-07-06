@@ -136,6 +136,8 @@ let g:ctrlp_working_path_mode = 'ra'
 set laststatus=2
 " removes the pause when leaving insert mode
 set timeoutlen=50
+" optimize performance by not loading too much extensions
+let g:airline_extensions = ['quickfix', 'branch', 'tabline', 'ctrlp', 'whitespace']
 " tabs suport
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#show_buffers = 0
