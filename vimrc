@@ -129,3 +129,14 @@ execute pathogen#infect()
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 let g:ctrlp_working_path_mode = 'ra'
+
+" adds vim-airline config
+
+" autoload since it only first appears when splitted by default
+set laststatus=2
+" removes the pause when leaving insert mode
+set timeoutlen=50
+" tabs suport
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#show_buffers = 0
+let g:airline#extensions#tabline#tab_nr_type = 1 " tab number
