@@ -109,6 +109,10 @@ endif
 " Disable search highlight
 set nohlsearch
 
+" enable cursor line
+set cursorline
+hi CursorLine cterm=none ctermbg=235
+
 " http://vim.wikia.com/wiki/Quickly_adding_and_deleting_empty_lines
 " Ctrl-j/k insert blank line below/above.
 " nnoremap <silent><C-j> m`:silent +g/\m^\s*$/d<CR>``:noh<CR>
