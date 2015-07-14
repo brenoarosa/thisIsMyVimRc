@@ -107,12 +107,15 @@ else
 endif
 
 " Disable search highlight
-set nohlsearch
+" set nohlsearch
 
 " enable cursor line
 set cursorline
-hi CursorLine cterm=none ctermbg=235
-hi CursorLineNr cterm=bold ctermfg=113
+
+" Colors
+hi Search term=reverse cterm=underline ctermfg=none ctermbg=none
+hi CursorLine cterm=none ctermfg=None ctermbg=233
+hi CursorLineNr cterm=bold ctermfg=113 ctermbg=233
 
 " http://vim.wikia.com/wiki/Quickly_adding_and_deleting_empty_lines
 " Ctrl-j/k insert blank line below/above.
