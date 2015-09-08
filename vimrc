@@ -106,6 +106,11 @@ else
     set list listchars=tab:>\ ,trail:-
 endif
 
+" Set new splits position
+set splitbelow
+set splitright
+
+
 " Disable search highlight
 " set nohlsearch
 
