@@ -14,3 +14,8 @@ echo "runtime vimrc" > ~/.vimrc
 Register and get submodules (or use --recursive flag when cloning):
 git submodules init
 git submodules update
+
+### Fonts
+
+Install powerline fonts:
+https://powerline.readthedocs.org/en/latest/installation/linux.html#fonts-installation
