@@ -7,7 +7,7 @@ scriptencoding utf-8
 set nocompatible
 
 " allow backspacing over everything in insert mode
-set backspace=eol,start
+set backspace=indent,eol,start
 
 " Enable a nice big viminfo file
 set viminfo='500,f1,:500,/500
