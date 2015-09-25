@@ -6,22 +6,6 @@ scriptencoding utf-8
 " This must be first, because it changes other options as a side effect.
 set nocompatible
 
-" allow backspacing over everything in insert mode
-set backspace=indent,eol,start
-
-" Enable a nice big viminfo file
-set viminfo='500,f1,:500,/500
-set history=200
-
-" show the cursor position all the time
-set ruler
-
-" display incomplete commands
-set showcmd
-
-" do incremental searching
-set incsearch
-
 " Show full tags when doing search completion
 set showfulltag
 
@@ -39,16 +23,6 @@ endif
 " Only do this part when compiled with support for autocommands.
 if has("autocmd")
 
-  " Enable file type detection.
-  " Use the default filetype settings, so that mail gets 'tw' set to 72,
-  " 'cindent' is on in C files, etc.
-  " Also load indent files, to automatically do language-dependent indenting.
-  filetype plugin indent on
-
-  " Put these in an autocmd group, so that we can delete them easily.
-  augroup vimrcEx
-  au!
-
   " For all text files set 'textwidth' to 78 characters.
   "autocmd FileType text setlocal textwidth=78
 
@@ -59,12 +33,6 @@ if has("autocmd")
     \ if line("'\"") > 0 && line("'\"") <= line("$") |
     \   exe "normal g`\"" |
     \ endif
-
-  augroup END
-
-else
-  " always set autoindenting on
-  set autoindent
 
 endif " has("autocmd")
 
@@ -80,10 +48,6 @@ set shiftwidth=4
 set expandtab
 " Tabs continuing /t
 "set noexpandtab
-
-" Switch syntax highlighting on
-syntax on
-"set cursorline
 
 " Display line numbers
 set number
