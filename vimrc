@@ -49,6 +49,9 @@ set expandtab
 " Tabs continuing /t
 "set noexpandtab
 
+" Switch syntax highlighting on
+syntax on
+
 " Display line numbers
 set number
 
