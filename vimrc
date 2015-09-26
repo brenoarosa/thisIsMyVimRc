@@ -73,11 +73,10 @@ endif
 set splitbelow
 set splitright
 
+" Enable search highlight
+set hlsearch
 
-" Disable search highlight
-" set nohlsearch
-
-" enable cursor line
+" Enable cursor line
 set cursorline
 
 " Colors
