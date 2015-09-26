@@ -79,12 +79,6 @@ set hlsearch
 " Enable cursor line
 set cursorline
 
-" Colors
-hi IncSearch term=reverse cterm=underline ctermfg=none ctermbg=none
-hi Search term=reverse cterm=underline ctermfg=none ctermbg=none
-hi CursorLine cterm=none ctermfg=None ctermbg=233
-hi CursorLineNr cterm=bold ctermfg=113 ctermbg=233
-
 " http://vim.wikia.com/wiki/Quickly_adding_and_deleting_empty_lines
 " Ctrl-j/k insert blank line below/above.
 " nnoremap <silent><C-j> m`:silent +g/\m^\s*$/d<CR>``:noh<CR>
@@ -121,5 +115,11 @@ let g:airline#extensions#tabline#tab_nr_type = 1 " tab number
 
 " Enable powerline fonts
 let g:airline_powerline_fonts = 1
+
+" Colors
+hi IncSearch term=reverse cterm=underline ctermfg=none ctermbg=none
+hi Search term=reverse cterm=underline ctermfg=none ctermbg=none
+hi CursorLine cterm=none ctermfg=None ctermbg=233
+hi CursorLineNr cterm=bold ctermfg=113 ctermbg=233
 
 " vim:set ft=vim et sw=2:
