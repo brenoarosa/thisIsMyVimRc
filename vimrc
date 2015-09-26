@@ -21,9 +21,6 @@ endif
 " Only do this part when compiled with support for autocommands.
 if has("autocmd")
 
-  " For all text files set 'textwidth' to 78 characters.
-  "autocmd FileType text setlocal textwidth=78
-
   " When editing a file, always jump to the last known cursor position.
   " Don't do it when the position is invalid or when inside an event handler
   " (happens when dropping a file on gvim).
@@ -44,8 +41,6 @@ set softtabstop=4
 set shiftwidth=4
 " Tabs will transform in spaces
 set expandtab
-" Tabs continuing /t
-"set noexpandtab
 
 " Switch syntax highlighting on
 syntax on
