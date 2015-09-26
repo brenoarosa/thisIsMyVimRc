@@ -1,7 +1,5 @@
 scriptencoding utf-8
-" .vimrc - Inicialização vim.
-"
-"
+
 " Use Vim settings, rather then Vi settings (much better!).
 " This must be first, because it changes other options as a side effect.
 set nocompatible
@@ -17,7 +15,7 @@ colorscheme default
 
 " enable 256 color support when available
 if ($TERM == "xterm-256color")
-    set t_Co=256
+  set t_Co=256
 endif
 
 " Only do this part when compiled with support for autocommands.
@@ -30,9 +28,9 @@ if has("autocmd")
   " Don't do it when the position is invalid or when inside an event handler
   " (happens when dropping a file on gvim).
   autocmd BufReadPost *
-    \ if line("'\"") > 0 && line("'\"") <= line("$") |
-    \   exe "normal g`\"" |
-    \ endif
+  \ if line("'\"") > 0 && line("'\"") <= line("$") |
+  \   exe "normal g`\"" |
+  \ endif
 
 endif " has("autocmd")
 
@@ -68,9 +66,9 @@ set scrolloff=3
 let c_comment_strings=1
 
 if (&term =~ "xterm") || has("gui_running")
-    set list listchars=tab:»\ ,trail:·
+  set list listchars=tab:»\ ,trail:·
 else
-    set list listchars=tab:>\ ,trail:-
+  set list listchars=tab:>\ ,trail:-
 endif
 
 " Set new splits position
@@ -126,3 +124,5 @@ let g:airline#extensions#tabline#tab_nr_type = 1 " tab number
 
 " Enable powerline fonts
 let g:airline_powerline_fonts = 1
+
+" vim:set ft=vim et sw=2:
