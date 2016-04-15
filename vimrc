@@ -79,6 +79,12 @@ set hlsearch
 " Enable cursor line
 set cursorline
 
+" Reread file when only modified externaly
+set autoread
+
+" Maps a leader key
+let mapleader=','
+
 " http://vim.wikia.com/wiki/Quickly_adding_and_deleting_empty_lines
 " Ctrl-j/k insert blank line below/above.
 " nnoremap <silent><C-j> m`:silent +g/\m^\s*$/d<CR>``:noh<CR>
