@@ -126,12 +126,15 @@ let g:syntastic_check_on_wq = 0
 let g:syntastic_error_symbol = "✗"
 let g:syntastic_warning_symbol = "⚠"
 
+nnoremap <leader>c :call SyntasticCheck()<CR>
+nnoremap <leader>d :call SyntasticReset()<CR>
+
 " adds vim-airline config
 
 " autoload since it only first appears when splitted by default
 set laststatus=2
 " optimize performance by not loading too much extensions
-let g:airline_extensions = ['quickfix', 'branch', 'tabline', 'ctrlp', 'whitespace']
+let g:airline_extensions = ['quickfix', 'branch', 'tabline', 'ctrlp', 'whitespace', 'syntastic']
 " tabs suport
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#show_buffers = 0
