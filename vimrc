@@ -82,8 +82,14 @@ set cursorline
 " Reread file when only modified externaly
 set autoread
 
+" Leader key mapping
+
 " Maps a leader key
-let mapleader=','
+let mapleader = ','
+" Timeout to sequence chars
+set timeoutlen=500
+" Just a debugging
+nnoremap <leader>? :echo("\<leader\> works! It is set to <leader>")<CR>
 
 " http://vim.wikia.com/wiki/Quickly_adding_and_deleting_empty_lines
 " Ctrl-j/k insert blank line below/above.
@@ -124,8 +130,6 @@ let g:syntastic_warning_symbol = "⚠"
 
 " autoload since it only first appears when splitted by default
 set laststatus=2
-" removes the pause when leaving insert mode
-set timeoutlen=50
 " optimize performance by not loading too much extensions
 let g:airline_extensions = ['quickfix', 'branch', 'tabline', 'ctrlp', 'whitespace']
 " tabs suport
