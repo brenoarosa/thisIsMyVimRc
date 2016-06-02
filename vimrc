@@ -69,6 +69,9 @@ else
   set list listchars=tab:>\ ,trail:-
 endif
 
+" Ignore filepatterns when wildcards
+set wildignore+=*.pyc,*.so,*.obj,*.exe,*.zip
+
 " Set new splits position
 set splitbelow
 set splitright
