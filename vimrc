@@ -85,6 +85,9 @@ set cursorline
 " Reread file when only modified externaly
 set autoread
 
+" Map :make to scons
+set makeprg=scons
+
 " Leader key mapping
 
 " Maps a leader key
