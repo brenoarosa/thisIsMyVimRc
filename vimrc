@@ -47,12 +47,9 @@ syntax on
 
 " Display line numbers
 set number
-" Display lines relative to each other
-set relativenumber
-" Boths numbers options together and you have better of both worlds
 
 " Toggle line numbers
-nnoremap <silent><F3> :set number! relativenumber!<cr>
+nnoremap <silent><F3> :set number!<cr>
 
 " Scroll with 3 lines of border
 set scrolloff=3
