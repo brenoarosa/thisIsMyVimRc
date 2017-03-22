@@ -18,9 +18,6 @@ if ($TERM == "xterm-256color")
   set t_Co=256
 endif
 
-" enable all mouse options
-set mouse=a
-
 " Only do this part when compiled with support for autocommands.
 if has("autocmd")
 
