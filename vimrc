@@ -66,6 +66,9 @@ else
   set list listchars=tab:>\ ,trail:-
 endif
 
+" Hard disables mouse
+set mouse=
+
 " Ignore filepatterns when wildcards
 set wildignore+=*.pyc,*.so,*.obj,*.exe,*.zip
 
