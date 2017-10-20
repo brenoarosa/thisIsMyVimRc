@@ -85,6 +85,18 @@ set cursorline
 " Reread file when only modified externaly
 set autoread
 
+" swp directory
+set directory=.,$XDG_DATA_HOME/nvim/swap//
+
+" Removes neovim cursor style
+set guicursor=
+
+" Choses how to display invisible chars
+set listchars=tab:»·,trail:·
+
+" Removes preview from completion
+set completeopt=menuone
+
 " Map :make to scons
 set makeprg=scons
 
