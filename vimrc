@@ -100,6 +100,9 @@ set completeopt=menuone
 " Map :make to scons
 set makeprg=scons
 
+" Set tex mode to latex
+let g:tex_flavor = "latex"
+
 " Leader key mapping
 
 " Maps a leader key
