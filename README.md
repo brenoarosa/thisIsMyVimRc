@@ -1,5 +1,5 @@
 # thisIsMyVimRc
-Guess what it does !?
+My vim configuration and plugins
 
 ### Install
 
