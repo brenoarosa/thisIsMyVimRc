@@ -6,8 +6,10 @@ My vim configuration and plugins
 Get and rename this folder as ".vim"
 git clone git@github.com:brenoarosa/thisIsMyVimRc.git .vim
 
-Install it runing:
+Install it running:
+```
 echo "runtime vimrc" > ~/.vimrc
+```
 
 ### Plugins
 
@@ -18,4 +20,5 @@ git submodules update
 ### Fonts
 
 Install powerline fonts:
-https://powerline.readthedocs.org/en/latest/installation/linux.html#fonts-installation
+- From repository [fonts-powerline](https://packages.debian.org/sid/fonts-powerline)
+- Downloading manually from <https://powerline.readthedocs.org/en/latest/installation/linux.html#fonts-installation>
