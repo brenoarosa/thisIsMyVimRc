@@ -49,7 +49,7 @@ syntax on
 set number
 
 " Toggle line numbers
-nnoremap <silent><F3> :set number!<cr>
+nnoremap <silent><F3> :set number!<cr> :GitGutterSignsToggle<cr>
 
 " Scroll with 3 lines of border
 set scrolloff=3
