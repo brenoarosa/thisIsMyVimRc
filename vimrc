@@ -10,6 +10,10 @@ set showfulltag
 " Speed up macros
 set lazyredraw
 
+" Per-directory .vimrc files
+set exrc
+set secure
+
 " Defines colorscheme
 colorscheme default
 
