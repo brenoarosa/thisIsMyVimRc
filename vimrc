@@ -168,6 +168,9 @@ let g:airline#extensions#tabline#tab_nr_type = 1 " tab number
 " Enable powerline fonts
 let g:airline_powerline_fonts = 1
 
+" editorconfig-vim plugin
+let g:EditorConfig_exclude_patterns = ['fugitive://.\*', 'scp://.\*']
+
 " Colors
 hi IncSearch term=reverse cterm=underline ctermfg=none ctermbg=none
 hi Search term=reverse cterm=underline ctermfg=none ctermbg=none
