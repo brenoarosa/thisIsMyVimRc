@@ -13,6 +13,8 @@ echo "runtime vimrc" > ~/.vimrc
 
 ### Plugins
 
+Inspired by: <http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/>
+
 Register and get submodules (or use --recursive flag when cloning):
 git submodules init
 git submodules update
