@@ -17,6 +17,15 @@ Register and get submodules (or use --recursive flag when cloning):
 git submodules init
 git submodules update
 
+#### Adding plugins
+
+Adds repositories as submodules as:
+git submodule add http://github.com/tpope/vim-fugitive.git bundle/fugitive
+
+#### Upgrading all plugins
+
+git submodule foreach git pull origin master
+
 ### Fonts
 
 Install powerline fonts:
