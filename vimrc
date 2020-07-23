@@ -14,9 +14,6 @@ set lazyredraw
 set exrc
 set secure
 
-" Defines colorscheme
-colorscheme default
-
 " enable 256 color support when available
 if ($TERM == "xterm-256color")
   set t_Co=256
@@ -177,6 +174,8 @@ let g:airline_powerline_fonts = 1
 let g:EditorConfig_exclude_patterns = ['fugitive://.\*', 'scp://.\*']
 
 " Colors
+colorscheme jelleybeans
+
 hi IncSearch term=reverse cterm=underline ctermfg=none ctermbg=none
 hi Search term=reverse cterm=underline ctermfg=none ctermbg=none
 hi CursorLine cterm=none ctermfg=None ctermbg=233
