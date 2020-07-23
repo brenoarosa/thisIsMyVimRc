@@ -40,3 +40,6 @@
 [submodule "bundle/vim-colorschemes"]
 	path = bundle/vim-colorschemes
 	url = https://github.com/flazz/vim-colorschemes.git
+[submodule "bundle/onedark"]
+	path = bundle/onedark
+	url = https://github.com/joshdick/onedark.vim.git
