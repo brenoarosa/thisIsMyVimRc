@@ -176,9 +176,9 @@ let g:EditorConfig_exclude_patterns = ['fugitive://.\*', 'scp://.\*']
 " Colors
 colorscheme jelleybeans
 
-hi IncSearch term=reverse cterm=underline ctermfg=none ctermbg=none
-hi Search term=reverse cterm=underline ctermfg=none ctermbg=none
-hi CursorLine cterm=none ctermfg=None ctermbg=233
-hi CursorLineNr cterm=bold ctermfg=113 ctermbg=233
+"hi IncSearch term=reverse cterm=underline ctermfg=none ctermbg=none
+"hi Search term=reverse cterm=underline ctermfg=none ctermbg=none
+"hi CursorLine cterm=none ctermfg=None ctermbg=233
+"hi CursorLineNr cterm=bold ctermfg=113 ctermbg=233
 
 " vim:set ft=vim et sw=2:
