@@ -1,4 +1,7 @@
 # thisIsMyVimRc
+** Deprecated **
+** Migrating to [neovim lua init scripts]<https://github.com/brenoarosa/neovim_dotfiles>**
+
 My vim configuration and plugins
 
 ### Install
